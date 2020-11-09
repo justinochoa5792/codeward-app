@@ -1,7 +1,32 @@
 * {
   list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App {
+.home {
   text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background-color: #708090;
+  height: 15vh;
+}
+
+.search {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.completed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
