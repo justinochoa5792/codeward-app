@@ -33,7 +33,9 @@ class Home extends Component {
           </li>
           <li>{this.state.kata.description}</li>
           <li>
-            <a href={this.state.kata.url}>{this.state.kata.url}</a>
+            <a href={this.state.kata.url} target="new">
+              {this.state.kata.url}
+            </a>
           </li>
         </ul>
       );
